@@ -15,7 +15,7 @@ public class DataAccess
         return;        
     }
 
-    //Read the data from Wedding and birthday parties from a Text file
+    //Read the data from Wedding and birthday parties from Text file
     public void ReadFile(String ReadFrom) throws IOException
     {
         FileReader fr = new FileReader("UserChosing.txt");
